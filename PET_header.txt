@@ -1,0 +1,1007 @@
+#
+# Header file for data file F:\Preclinical\microQ\temporary\20210311_Pig_experiment4_2cm_PET_900s_Cu64_PET_v2.pet.uPetRecon.f0000.img
+#    with 1 frames.
+#
+#
+#  Following parameters are used for ALL modalities.
+#
+#
+# Version of header parameters (float)
+#
+version 002.000
+#
+# Begin Protocol Parameters
+# End Protocol Parameters
+#
+# Manufacturer's name (string)
+#
+manufacturer  
+#
+# Scanner model number (integer)
+#
+#   0 - Unknown
+#   2000 - Primate
+#   2001 - Rodent
+#   2002 - microPET2
+#   2500 - Focus_220
+#   2501 - Focus_120
+#   3000 - mCAT
+#   3500 - mCATII
+#   4000 - mSPECT
+#   5000 - Inveon_Dedicated_PET
+#   5001 - Inveon_MM_Platform
+#   6000 - MR_PET_Head_Insert
+#   8000 - Tuebingen_PET_MR
+#
+model 5100
+#
+# Acquisition scanner modality (integer)
+#   -1 - Unknown acquisition modality
+#   0 - PET acquisition
+#   1 - CT acquisition
+#   2 - SPECT acquisition
+#
+modality 0
+#
+# Scanner modality configuration number (integer)
+#
+#   0 - Unknown
+#   2000 - Primate
+#   2001 - Rodent
+#   2002 - microPET2
+#   2500 - Focus_220
+#   2501 - Focus_120
+#   5000 - Inveon_Dedicated_PET
+#   6000 - MR_PET_Head_Insert
+#   8000 - Tuebingen_PET_MR
+#   5500 - Inveon_MM_PET
+#
+modality_configuration 5000
+#
+# Institution identification (string)
+#
+institution  
+#
+# Study type/description (string)
+#
+study  
+#
+# Data filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+file_name F:\Preclinical\Users\admin\User Folders\DOBRUCKI\LEOPOLD\Datasets\20210311_Pig_experiment4_2cm\20210311_Pig_experiment4_2cm_PET_900s_Cu64_PET_v2.pet.img
+#
+# Data file type (integer)
+#   0 - Unknown data file type
+#   1 - List mode data file
+#   2 - Sinogram data file
+#   3 - Normalization data file
+#   4 - Attenuation correction data file
+#   5 - Image data file
+#   6 - Blank data file
+#   8 - Mu map data file
+#   9 - Scatter correction data file
+#   10 - Crystal efficiency data
+#   11 - Crystal interference correction
+#   12 - Transaxial geometric correction
+#   13 - Axial geometric correction
+#   14 - CT projection data
+#   15 - SPECT raw projection data
+#   16 - SPECT energy data from projections
+#   17 - SPECT normalization data
+#   18 - SPECT tomography normalization crystalgram data
+#   19 - SPECT planar normalization crystalgram data
+#
+file_type 5
+#
+# Acquisition mode (integer)
+#   0 - Unknown acquisition mode
+#   1 - Blank acquisition
+#   2 - Emission acquisition
+#   3 - Dynamic acquisition
+#   4 - Gated acquisition
+#   5 - Continuous bed motion acquisition
+#   6 - Singles transmission acquisition
+#   7 - Windowed coincidence transmission acquisition
+#   8 - Non-windowed coincidence transmission acquisition
+#   9 - CT projection acquisition
+#   10 - CT calibration acquisition
+#   11 - SPECT planar projection acquisition
+#   12 - SPECT multi-projection acquisition
+#   13 - SPECT calibration acquisition
+#   14 - SPECT tomography normalization acquisition
+#   15 - SPECT detector setup acquisition
+#   16 - SPECT scout view acquisition
+#   17 - SPECT planar normalization acquisition
+#
+acquisition_mode 2
+#
+# Number of frames in data file (integer)
+#
+total_frames 1
+#
+# Number of time frames in data file (integer)
+#
+time_frames 1
+#
+# Bed control (integer)
+#   0 - Unknown bed control
+#   1 - Dedicated PET
+#   2 - microCAT II
+#   3 - Multimodality bed control
+#   4 - microPET bed control
+#
+bed_control 3
+#
+# Bed motion (integer)
+#   0 - Static or unknown bed motion
+#   1 - Continuous bed motion
+#   2 - Multiple bed positions, i.e. step and shoot
+#
+bed_motion 0
+#
+# Number of bed positions in data file (integer)
+#
+number_of_bed_positions 1
+#
+# Horizontal bed calibration, in microns (float)
+#
+horizontal_bed_calibration 0
+#
+# Vertical bed calibration, in microns (float)
+#
+vertical_bed_calibration 0
+#
+# Transaxial projection bin size, in cm (float)
+#
+transaxial_bin_size 0.0815
+#
+# Axial plane size, in cm (float)
+#
+axial_plane_size 0.0796
+#
+# Number of detector panels ("rings/CT" are "1") (integer)
+#
+number_detector_panels 1
+#
+# Data type (integer)
+#   0 - Unknown data type
+#   1 - Byte (8-bits) data type
+#   2 - 2-byte integer - Intel style
+#   3 - 4-byte integer - Intel style
+#   4 - 4-byte float - Intel style
+#   5 - 4-byte float - Sun style
+#   6 - 2-byte integer - Sun style
+#   7 - 4-byte integer - Sun style
+#
+data_type 4
+#
+# Number of dimensions in data set (integer)
+#     Order from fastest to slowest is XYZW
+#
+number_of_dimensions 3
+#
+# Size of X dimension in data set (integer)
+#
+x_dimension 128
+#
+# Size of Y dimension in data set (integer)
+#
+y_dimension 128
+#
+# Size of Z dimension in data set (integer)
+#
+z_dimension 159
+#
+# Acquisition user ID (string)
+acquisition_user_id admin
+#
+# Histogram user ID (string)
+histogram_user_id 
+#
+# Reconstruction user ID (string)
+reconstruction_user_id 
+#
+# Scatter correction user ID (string)
+scatter_correction_user_id 
+#
+# Acquisition notes (string)
+acquisition_notes Multiple injections
+#
+# Scan start date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+scan_time Thu Mar 11 10:27:49 2021
+#
+# Scan start date and time - GMT-based (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+gmt_scan_time Thu Mar 11 16:27:49 2021
+#
+# X origin of volume, in voxels (integer)
+#
+volume_origin_x 0
+#
+# Y origin of volume, in voxels (integer)
+#
+volume_origin_y 0
+#
+# Z origin of volume, in voxels (integer)
+#
+volume_origin_z 0
+#
+# Registration data available (integer)
+#   0 - No registration data available
+#   1 - CT registration data available
+#   2 - PET registration data available
+#
+registration_available 0
+#
+# Transformation matrix filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+transformation_matrix  
+#
+# Spatial identification for registration (string)
+#
+spatial_identifier  
+#
+# Normalization applied to data set (integer)
+#   0 - No normalization applied
+#   1 - Point source inversion
+#   2 - Point source component based
+#   3 - Cylinder source inversion
+#   4 - Cylinder source component based
+#   5 - Dark/bright field log normalization (CT)
+#   6 - SPECT flood inversion based
+#
+normalization_applied 4
+#
+# Normalization filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+normalization_filename F:\Preclinical\Inveon\System Folders\PET\Datasets\Normalizations\20190722_Norm\20190722_Norm_PNM_Normalization-standard_v1.nrm
+#
+# Reconstruction type (integer)
+#   0 - Unknown, or no, algorithm type
+#   1 - Filtered Backprojection
+#   2 - OSEM2d
+#   3 - OSEM3d
+#   4 - 3D Reprojection
+#   6 - OSEM3D/MAP
+#   7 - MAPTR for transmission image
+#   8 - MAP 3D reconstruction
+#   9 - Feldkamp cone beam
+#
+recon_algorithm 6
+#
+# Version of reconstruction program used (float)
+#
+recon_version 002.600
+#
+# X filter and/or apodizing windows type (integer)
+#       and cutoff (float)
+#   0 - No filter
+#   1 - Ramp filter (backprojection) or no filter
+#   2 - First-order Butterworth window
+#   3 - Hanning window
+#   4 - Hamming window
+#   5 - Parzen window
+#   6 - Shepp filter
+#   7 - Second-order Butterworth window
+#   NOTE that a cutoff of 0.5 is the Nyquist point
+#     i.e 1.0 / (2.0 * sampling).
+#     Also, the Ramp and Shepp should ONLY be used
+#     for backprojection
+#
+x_filter 1 0.5
+#
+# Y apodizing filter type (integer) and cutoff (float)
+#   0 - No filter
+#   2 - First-order Butterworth window
+#   3 - Hanning window
+#   4 - Hamming window
+#   5 - Parzen window
+#   7 - Second-order Butterworth window
+#   NOTE that a cutoff of 0.5 is the Nyquist point
+#     i.e 1.0 / (2.0 * sampling).
+#
+y_filter 0 0.5
+#
+# Z apodizing filter type (integer) and cutoff (float)
+#   0 - No filter
+#   2 - First-order Butterworth window
+#   3 - Hanning window
+#   4 - Hamming window
+#   5 - Parzen window
+#   7 - Second-order Butterworth window
+#   NOTE that a cutoff of 0.5 is the Nyquist point
+#     i.e 1.0 / (2.0 * sampling).
+#
+z_filter 0 0.5
+#
+# X offset, in cm, applied to data set (float)
+#
+x_offset 0
+#
+# Y offset, in cm, applied to data set (float)
+#
+y_offset 0
+#
+# Image reference shift (X, Y, Z), in mm, applied to data set (float float float)
+#
+image_ref_shift 0 0 0
+#
+# Image reference rotations (X, Y, Z), in deg, applied to data set (float float float)
+#
+image_ref_rotation 0 0 0
+#
+# Zoom applied to data set (float)
+#
+zoom 1
+#
+# Reconstructed pixel size, in cm (float)
+#     NOTE: pixel_size = (((X_crystal_pitch / 2.0) * X_dim) /
+#           (image_size * zoom)) * (effective_radius / radius)
+#
+pixel_size 0.0776383
+#
+# Reconstructed pixel size in X, in mm (float)
+pixel_size_x 0.776383
+#
+# Reconstructed pixel size in Y, in mm (float)
+pixel_size_y 0.776383
+#
+# Reconstructed pixel size in Z, in mm (float)
+pixel_size_z 0.796
+#
+# Investigator identification (string)
+#
+investigator  
+#
+# Operator identification (string)
+#
+operator  
+#
+# Study identification (string)
+#
+study_identifier 1.2.05100.90009.01095.20210311101959
+#
+# Injected compound (string)
+#
+injected_compound  
+#
+# Subject identifier (string)
+#
+subject_identifier  
+#
+# Subject genus (string)
+#
+subject_genus  
+#
+# Subject orientation (integer)
+#   0 - Unknown subject orientation
+#   1 - Feet first, prone
+#   2 - Head first, prone
+#   3 - Feet first, supine
+#   4 - Head first, supine
+#   5 - Feet first, right
+#   6 - Head first, right
+#   7 - Feet first, left
+#   8 - Head first, left
+#
+subject_orientation 0
+#
+# Length units (integer)
+#   0 - Unknown length units
+#   1 - millimeters
+#   2 - centimeters
+#   3 - inches
+#
+subject_length_units 0
+#
+# Subject length (float)
+#
+subject_length 0
+#
+# Weight units (integer)
+#   0 - Unknown weight units
+#   1 - grams
+#   2 - ounces
+#   3 - kilograms
+#   4 - pounds
+#
+subject_weight_units 0
+#
+# Subject weight (float)
+#
+subject_weight 0
+#
+# Subject phenotype (string)
+#
+subject_phenotype  
+#
+# Study model (string)
+#
+study_model  
+#
+# Subject anesthesia (string)
+#
+anesthesia  
+#
+# Subject analgesia (string)
+#
+analgesia  
+#
+# Other drugs (string)
+#
+other_drugs  
+#
+# Food access (string)
+#
+food_access  
+#
+# Water access (string)
+#
+water_access  
+#
+# Subject date of birth (string)
+#
+subject_date_of_birth  
+#
+# Subject age (string)
+#
+subject_age  
+#
+# Subject sex (string)
+#
+subject_sex  
+#
+# Subject scan region (string)
+#
+subject_scan_region  
+#
+# Calibration units (integer)
+#   0 - Unknown calibration units
+#   1 - nCi/cc
+#   2 - Bq/cc
+#   3 - Hounsfield Unit
+#
+calibration_units 1
+#
+# Calibration factor (float)
+#   NOTE: Frame scale factor DOES NOT include
+#         calibration factor.
+#
+calibration_factor 4.15007e+006
+#
+# Smooth types (integer)
+#   0 - Not known whether it was applied or not, or what method was used
+#   1 - 3 Point Boxcar
+#   2 - 3 Point Gaussian
+#   3 - 3 Point Triangular
+#
+smooth_types 0
+#
+# Number of iterations smoothing is applied (integer)
+#
+smooth_iter 0
+#
+# Threshold that smoothing is used (in percentage)
+#
+smooth_threshold 0
+#
+#  Following parameters are used for PET or CT modalities.
+#
+#
+# Original acquisition filename, DOES NOT INCLUDE path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+acquisition_file_name 
+#
+#  Following parameters are used for PET or SPECT modalities.
+#
+#
+# Transaxial crystal pitch, in cm (float)
+#
+transaxial_crystal_pitch 0.163
+#
+# Axial crystal pitch, in cm (float)
+#
+axial_crystal_pitch 0.1592
+#
+# Crystal thickness, in cm (float)
+#
+crystal_thickness 1
+#
+# Depth of interaction, in cm (float)
+#
+depth_of_interaction 0.4584
+#
+# Isotope description (string)
+#
+isotope Cu-64
+#
+# Isotope half-life, in secs (float)
+#
+isotope_half_life 45720
+#
+# Isotope branching fraction (float)
+#   NOTE: Frame scale factor DOES NOT include
+#         isotope branching fraction.
+#
+isotope_branching_fraction 0.174
+#
+# Deadtime correction applied to data set (integer)
+#   0 - No deadtime correction applied
+#   1 - Global estimate based on singles
+#   2 - CMS estimate based on singles
+#   3 - Global estimate based on running deadtime average
+#   4 - Blank/TX singles estimate (block based)
+#   5 - Old Global estimate based on singles (not continues)
+#
+deadtime_correction_applied 1
+#
+# Decay correction applied to data set (integer)
+#     0 (FALSE) - Decay correction has NOT been applied
+#     !0 (TRUE) - Decay correction has been applied
+#
+decay_correction_applied 1
+#
+# Attenuation applied to data set (integer)
+#   0 - No attenuation applied
+#   1 - Point source in windowed TX coincidence
+#   2 - Point source singles based TX
+#   3 - Segmented point source in TX coincidence
+#   4 - Segmented point source singles based TX
+#   5 - Calculated by geometry
+#   6 - Non-positron source singles based TX
+#   7 - Point source in non-windowed TX coincidence
+#   8 - Generated from CT image
+#
+attenuation_applied 0
+#
+# Scatter correction applied to data set (integer)
+#   0 - No scatter correction applied
+#   1 - Fit of emission tail
+#   2 - Monte Carlo of emission and transmission data
+#   3 - Direct calculation from analytical formulas
+#   4 - Model-based scatter for singles TX
+#   5 - TX off-window windowed coincidence subtraction
+#   6 - Singles TX scaled scatter from attenuation subtraction
+#   7 - SPECT Triple Energy Window (TEW) method
+#
+scatter_correction 0
+#
+# Calibration source branching fraction (float)
+#   NOTE: Frame scale factor DOES NOT include
+#         calibration source branching fraction.
+#
+calibration_branching_fraction 1
+#
+# Dose units (integer)
+#   0 - Unknown dose units
+#   1 - mCi
+#   2 - MBq
+#
+dose_units 1
+#
+# Injected dose (float)
+dose 0.757318
+#
+# Injection date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+injection_time Wed Mar 10 16:22:49 2021
+#
+# Injection decay correction factor (float)
+#   NOTE: Frame scale factor and decay correction factor
+#   DO NOT include injection decay correction factor.
+#
+injection_decay_correction 2.68307
+#
+# Pre- and residual activity units (integer)
+#   0 - Unknown dose units
+#   1 - mCi
+#   2 - MBq
+#
+activity_units 1
+#
+# Activity before injection (float)
+activity_before_injection 0.798
+#
+# Activity before injection measurement date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+activity_before_injection_time Wed Mar 10 15:51:49 2021
+#
+# Residual activity (float)
+residual_activity 0.01846
+#
+# Residual activity measurement date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+residual_activity_time Wed Mar 10 16:24:49 2021
+#
+# Number of subsets in MAP reconstruction (integer)
+#
+map_subsets 16
+#
+# Number of MAP iterations (integer)
+#
+map_iterations 18
+#
+# Beta value for MAP reconstruction (float)
+#
+map_beta 0.00427838
+#
+# Type of OSEM3D/MAP reconstruction (int)
+#
+# map_op=1, for Orinary Poisson OSEM3D/MAP reconstruction
+#
+# map_op=0, for Shifted Poisson OSEM3D/MAP reconstruction
+#
+map_op 0
+#
+#  Following parameters are used for PET modality only.
+#
+#
+# Transaxial crystals per block (integer)
+#
+transaxial_crystals_per_block 20
+#
+# Axial crystals per block (integer)
+#
+axial_crystals_per_block 20
+#
+# Crystal offset for intrinsic rotation (integer)
+#
+intrinsic_crystal_offset 0
+#
+# Number of transaxial blocks (integer)
+#
+transaxial_blocks 16
+#
+# Number of axial blocks (integer)
+#
+axial_blocks 4
+#
+# Ring radius to crystal face, in cm (float)
+#
+radius 8.054
+#
+# Radial field-of-view, in cm (float)
+#
+radial_fov 7.5
+#
+# Source radius, in cm (float)
+#
+src_radius 7.396
+#
+# Source axial cm per revolution, in cm (float)
+#
+src_cm_per_rev 0
+#
+# Source encoder steps per revolution (integer)
+#
+src_steps_per_rev 11000
+#
+# Default number of projections (integer)
+#
+default_projections 128
+#
+# Default number of transaxial angles (integer)
+#
+default_transaxial_angles 160
+#
+# Lower level energy threshold, in KeV (float)
+#
+lld 350
+#
+# Upper level energy threshold, in KeV (float)
+#
+uld 650
+#
+# Coincidence timing window, in nsecs (int or float)
+#
+timing_window 3.4375
+#
+# Span of data set (integer)
+#
+span 3
+#
+# Maximum ring difference of data set (integer)
+#
+ring_difference 79
+#
+# Size of W dimension in data set (integer)
+#
+w_dimension 1
+#
+# Version of histogram program used (float)
+#
+histogram_version 003.000
+#
+# Rebinning type (integer)
+#   0 - Unknown, or no, algorithm type
+#   1 - Full 3D binning (span and ring difference)
+#   2 - Single-Slice Rebinning
+#   3 - Fourier Rebinning
+#   4 - Fourier Rebinning Exact
+#
+rebinning_type 1
+#
+# Version of rebinning program used (float)
+#
+rebinning_version 002.600
+#
+# Source type (integer)
+#
+#   0 - Unknown TX source type
+#   1 - TX point source
+#   2 - TX line source
+#
+tx_src_type 0
+#
+# Number of TX point source(s) (integer)
+#
+num_Tx_PtSrc 2
+#
+# Data order (integer)
+#   0 - Element/Axis/View/Ring_Diff - view mode
+#   1 - Element/View/Axis/Ring_Diff - sinogram mode
+#  NOTE that ElVwAxRd (XYZW) is the data order for images.
+#    ElVwAxRd for images means that Z and Y are flipped.
+#
+data_order 1
+#
+# Type of MAP used (integer)
+#
+#   0 - MAP
+#   1 - FastMAP
+#
+fastmap 0
+#
+# Map or Fast MAP resolution in mm (float)
+#
+map_resolution_in_mm 1.5
+#
+# Number of osem3d iterations in MAP reconstruction (integer)
+#
+map_osem3d_iterations 2
+#
+# MAP blur kernel type (int)
+#
+map_blur_type 2
+#
+# MAP prior type (int)
+#
+map_prior_type 1
+#
+# MAP blur kernel file prefix (string)
+#
+map_blur_file C:\Program Files\Siemens\MI\Preclinical\MAP Files\Kernel\QS120_v1
+#
+# MAP P matrix file prefix (string)
+#
+map_pmatrix_file C:\Program Files\Siemens\MI\Preclinical\MAP Files\Pmatrix_cylinder\QS120_0.8mm_128_r79s3_v5
+#
+# Arc correction applied to data set (integer)
+#   0 - Unknown, or no, arc correction
+#   1 - Radial arc correction (1D)
+#   2 - Resampled radial/angular arc correction (2D)
+#
+arc_correction_applied 0
+#
+# Number of singles rates in subheader (integer)
+#   NOTE: This normally is the number of blocks.
+#
+number_of_singles_rates 64
+#
+# Subject glucose level (string)
+#
+subject_glucose_level  
+#
+# Subject glucose level measurement time (string)
+#
+subject_glucose_level_time  
+#
+# End of Header indicator 
+#
+end_of_header
+#
+# Header for frame 0, detector_panel -1, event_type 4, energy_window -1, gate 0, bed 0.
+#
+#
+#  Following parameters are used for ALL modalities.
+#
+#
+# Frame number (integer)
+#
+frame 0
+#
+# Detector panel - NOTE: "ring" systems are "0" ONLY (integer)
+#
+detector_panel -1
+#
+# Event type (integer)
+#   0 - Unknown event type
+#   1 - Singles
+#   2 - Prompt events (coincidences)
+#   3 - Delay events
+#   4 - Trues (prompts - delays)
+#   5 - Energy spectrum data
+#
+event_type 4
+#
+# Energy window - NOTE PET/CT systems are typically "0" ONLY (integer)
+#
+energy_window -1
+#
+# Gate number (integer)
+#
+gate 0
+#
+# Bed number (integer)
+#
+bed 0
+#
+# Bed offset, in cm (float)
+#
+bed_offset 59.0776
+#
+# Ending horizontal bed offset, in cm (float)
+#
+ending_bed_offset 59.0776
+#
+# Vertical bed offset, in cm (float)
+#
+vertical_bed_offset 2.65402
+#
+# Data file offset to start of data (2 32-bit ints)
+#     Values are: low_part
+#             or: high_part low_part
+#
+data_file_pointer 0 0
+#
+# Frame start time, in secs (float)
+#
+frame_start 0
+#
+# Frame duration, in secs (float)
+#
+frame_duration 902.169
+#
+# Scale factor for data set (float)
+#
+scale_factor 0.00110844
+#
+# Minimum value in data set (float)
+#
+minimum -2.22494e-026
+#
+# Maximum value in data set (float)
+#
+maximum 22.2098
+#
+#  Following parameters are used for PET or SPECT modalities.
+#
+#
+# Deadtime correction for data set (float)
+#             NOTE: Scale factor INCLUDES this value.
+#
+deadtime_correction 1.01604
+#
+# Global decay correction applied to data set (float)
+#             NOTE: Scale factor INCLUDES this value.
+#
+decay_correction 1.00685
+#
+# Prompts count for data set (64-bit ints)
+#
+#   NOTE: The 3 values represent histogrammed prompts, 
+#         unhistogrammed prompts, and prompts at coincidence detection.
+#
+prompts 45421518   981211   46393483
+#
+# Prompts countrate per sec before histogramming (int)
+#
+prompts_rate 51445
+#
+#  Following parameters are used for PET modality only.
+#
+#
+# Delays count for data set (64-bit ints)
+#
+#   NOTE: The 3 values represent histogrammed delays, 
+#         unhistogrammed delays, and delays at coincidence detection.
+#
+delays 261718   107071   368446
+#
+# Trues count for data set (64-bit ints)
+#
+#   NOTE: The 3 values represent histogrammed trues, 
+#         unhistogrammed trues, and trues at coincidence detection.
+#
+trues 45159800   874140   46025037
+#
+# Delays countrate per sec before histogramming (int)
+#
+delays_rate 405
+#
+# Singles rates array (integer  float  float)
+#       block_number    singles/sec    raw_singles/sec    xy_stored_singles/sec    block_singles_output/sec    raw_block_prompts/sec    block_prompts/sec    raw_block_delays/sec    block_delays/sec
+#
+singles 0 12360.5 20355.5 19971.3 12360.4 1074.45 1074.46 6.87181 6.87361
+singles 1 12725.1 21110.4 20798.4 12725.1 900.157 900.171 7.12195 7.12195
+singles 2 12507.2 20565.4 20126.3 12507.2 623.558 623.541 6.86364 6.86405
+singles 3 11988.6 19987.4 19557.9 11988.6 382.498 382.512 6.54358 6.54358
+singles 4 11893.4 20206.5 19974.6 11893.4 325.044 325.039 6.19401 6.19401
+singles 5 11955.8 19736.8 19339.6 11955.9 480.043 480.042 5.94658 5.94568
+singles 6 11631.6 19911.4 19451.3 11631.5 607.805 607.805 5.76164 5.75959
+singles 7 11491.5 19558.3 19054.9 11491.6 718.126 718.14 6.0723 6.07293
+singles 8 11347.5 20148.5 19842.9 11347.5 1628.16 1628.24 7.80044 7.80204
+singles 9 11386.8 19546.1 19287.7 11386.7 1838.16 1838.17 8.17849 8.18
+singles 10 11133.5 18685.4 18397.7 11133.4 2026.75 2026.75 8.03813 8.03813
+singles 11 10316.9 17319.6 17119.5 10316.9 1776.87 1776.75 7.81153 7.81091
+singles 12 10447.5 16438.2 16254 10447.5 1681.17 1681.17 7.75671 7.75166
+singles 13 11315.8 19173.2 18983.1 11315.8 1769.86 1769.86 8.49701 8.49446
+singles 14 11662.7 19862.8 19671.2 11662.8 1814.75 1814.72 8.773 8.77162
+singles 15 12022.1 19815.5 19554.6 12022 1869.94 1869.92 8.77494 8.778
+singles 16 12548 19906.8 19594.4 12548 1185.12 1185.12 7.08758 7.09026
+singles 17 13149.5 21265.4 20832.4 13149.6 1121.21 1121.23 7.33696 7.33814
+singles 18 13365.2 22009 21662.4 13365.2 833.258 833.294 7.23381 7.23171
+singles 19 12834.2 20322.9 19934.1 12834.2 394.907 394.91 6.98182 6.98182
+singles 20 12586.7 20629.4 20199.5 12586.6 229.618 229.617 6.50887 6.50665
+singles 21 12474.5 19817.1 19584.9 12474.5 405.16 405.149 6.4254 6.4254
+singles 22 11934.4 19786.4 19589.2 11934.4 566.597 566.621 6.00643 6.00665
+singles 23 11548.7 19416.3 19094.5 11548.7 703.104 703.122 5.87694 5.87974
+singles 24 11218.4 19168.7 18784.1 11218.4 1007.39 1007.39 7.92286 7.92461
+singles 25 11266.3 18713.2 18379 11266.4 1231.41 1231.39 8.09244 8.08716
+singles 26 11145.3 18653.2 18358.6 11145.4 1486.39 1486.39 8.39246 8.39393
+singles 27 10316.8 18199.5 17802.6 10316.9 1308.05 1308.06 7.88914 7.88739
+singles 28 10566.8 16702.2 16475.3 10566.8 1224.4 1224.4 7.97849 7.97672
+singles 29 11392.6 18858.3 18613.1 11392.5 1185.38 1185.39 8.63888 8.63888
+singles 30 11667.9 19496.7 19275.5 11668 1183.4 1183.41 8.79823 8.79131
+singles 31 12073.8 19941 19620.1 12073.7 1266.46 1266.46 8.84428 8.84505
+singles 32 10843.5 17775.3 17499.9 10843.5 1094.99 1094.99 6.24945 6.2464
+singles 33 11275.7 18399.1 18179.5 11275.7 1026.88 1026.91 6.39911 6.39862
+singles 34 11455.7 18530.7 18278.3 11455.7 758.535 758.537 6.34922 6.34812
+singles 35 10956.7 18367.8 18049.7 10956.6 352.184 352.184 5.99911 5.99867
+singles 36 10751 17801 17549.4 10751.1 178.065 178.062 5.62181 5.62181
+singles 37 10639 17918.8 17636.8 10639.1 291.299 291.322 5.47228 5.47329
+singles 38 10146 17494.2 17237.3 10146 362.679 362.655 5.20182 5.20284
+singles 39 9797.62 16449.1 16127.7 9797.61 368.16 368.164 5.13762 5.13082
+singles 40 9484.16 16311.5 16090.5 9484.15 459.272 459.272 6.60718 6.60718
+singles 41 9285.43 15893 15545.6 9285.31 509.519 509.545 6.75349 6.75349
+singles 42 9022.45 15079.2 14855 9022.47 680.937 680.946 6.75349 6.75349
+singles 43 8372.74 14387.6 14162.2 8372.66 732.083 732.094 6.44646 6.44789
+singles 44 8735.7 14641.3 14562.3 8735.71 786.519 786.516 6.62195 6.6227
+singles 45 9408.61 15842 15567.3 9408.62 885.951 885.924 7.15521 7.15695
+singles 46 9796.56 16912.9 16649.7 9796.62 975.441 975.435 7.3459 7.34812
+singles 47 10219.2 17475.9 17261.6 10219.3 1095.58 1095.61 7.52383 7.52606
+singles 48 8269.94 14600 14416 8269.85 678.554 678.55 4.82147 4.82376
+singles 49 8173.43 13924.5 13670.5 8173.4 520.143 520.139 4.58315 4.58213
+singles 50 8157.4 13505.5 13326.9 8157.37 323.174 323.168 4.5255 4.52439
+singles 51 7774.14 13431.1 13249.8 7774.12 145.618 145.621 4.11771 4.11843
+singles 52 7671.42 13016.3 12765.8 7671.34 83.8694 83.867 3.94988 3.95011
+singles 53 7743.54 13603.1 13285.1 7743.53 92.037 92.0359 3.93412 3.93459
+singles 54 7616.04 13408.9 13190 7616.01 72.7705 72.7634 3.95921 3.95921
+singles 55 7636.65 14123.2 13811.5 7636.73 48.0947 48.0965 4.0519 4.05169
+singles 56 7273.22 13214.3 12995.1 7273.21 127.707 127.708 5.05211 5.05323
+singles 57 6906.66 12075.7 11921.1 6906.65 215.319 215.312 5.08204 5.08091
+singles 58 6570.91 11746 11526.1 6570.99 405.149 405.161 4.86921 4.86918
+singles 59 6065.78 10493.1 10318.6 6065.7 523.558 523.551 4.55654 4.55736
+singles 60 6408.47 11160.8 10991.9 6408.44 596.849 596.852 4.99002 4.99113
+singles 61 6988.93 12244.1 12092.3 6988.75 686.557 686.557 5.22722 5.23075
+singles 62 7370.92 12720.5 12501.3 7370.98 749.434 749.429 5.45666 5.45455
+singles 63 7857.06 13861.4 13583.5 7857.09 774.613 774.612 5.68832 5.68958
+#
+# End of Header indicator 
+#
+end_of_header
+
